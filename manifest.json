@@ -1,0 +1,17 @@
+{
+  "name": "Gautam Portfolio",
+  "short_name": "Gautam Portfolio",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#070a12",
+  "theme_color": "#070a12",
+  "description": "Professional portfolio of Gautam — Frontend Developer, SOC Analyst Level 1, IT Support Specialist, and Graphic Designer.",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

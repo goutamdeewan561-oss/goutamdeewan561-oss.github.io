@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Gautam | SOC Analyst Level 1, Frontend Developer & Graphic Designer</title>
+    <meta name="description"
+        content="Professional portfolio of Gautam — Frontend Developer, SOC Analyst Level 1, IT Support Specialist, Graphic Designer, and Founder of Glavion Solutions.">
+    <meta name="keywords"
+        content="Gautam, Gautam, Glavion Solutions, SOC Analyst Level 1, Frontend Developer, Graphic Designer, IT Support, Hyderabad Pakistan">
+    <meta name="author" content="Gautam">
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="Gautam - SOC Analyst, Frontend Developer & Graphic Designer">
+    <meta property="og:description" content="Frontend Developer, SOC Analyst Level 1 & Graphic Designer from Hyderabad, Pakistan. Founder of Glavion Solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/myimage.png">
+    <meta property="og:url" content="https://goutamdeewan561-oss.github.io/">
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gautam | SOC Analyst, Frontend Developer & Graphic Designer">
+    <meta name="twitter:description" content="Frontend Developer, SOC Analyst Level 1 & Graphic Designer from Pakistan.">
+    <meta name="twitter:image" content="assets/myimage.png">
+    <!-- PWA Manifest & Theme Color -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#070a12">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/myimage.png">
+    <link rel="canonical" href="https://goutamdeewan561-oss.github.io/">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500&display=swap">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JSON-LD Structured Data (Schema.org) -->
+        <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "name": "Gautam",
+          "jobTitle": "SOC Analyst Level 1, Frontend Developer & Graphic Designer",
+          "url": "https://goutamdeewan561-oss.github.io/",
+          "image": "assets/myimage.png",
+          "email": "gautamdeewan629@gmail.com",
+          "telephone": "+923110324919",
+          "address": { "@type": "PostalAddress", "addressLocality": "Hyderabad", "addressCountry": "PK" },
+          "sameAs": [
+            "https://github.com/goutamdeewan561-oss",
+            "https://www.linkedin.com/in/gautam-deewan-b76525382"
+          ],
+          "knowsAbout": ["Frontend Development", "React.js", "SOC Analysis", "Splunk", "ELK Stack", "Wireshark", "Graphic Design", "Photoshop", "Illustrator", "IT Support", "CCNA Networking"]
+        },
+        {
+          "@type": "WebSite",
+          "name": "Gautam Portfolio",
+          "url": "https://goutamdeewan561-oss.github.io/",
+          "description": "Professional portfolio of Gautam — Frontend Developer, SOC Analyst Level 1, IT Support Specialist, and Graphic Designer."
+        }
+      ]
+    }
+    </script>
+</head>
+
+<body data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="0">
+    <!-- Custom Smooth Cursor -->
+    <div id="custom-cursor"></div>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">G.</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Gau</span>
+                <span class="logo-highlight">tam</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="resume.html" class="nav-link">Resume</a>
+                <a href="cybersecurity.html" class="nav-link">Security</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="logo">G</div>
+            <button class="close-menu" id="closeMenu">✕</button>
+        </div>
+        <div class="mobile-menu-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html">Resume</a>
+            <a href="cybersecurity.html">Security</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="mobile-menu-social">
+            <a href="https://github.com/goutamdeewan561-oss" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/gautam-deewan-b76525382" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:gautamdeewan629@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content" data-aos="fade-up">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        Available for opportunities
+                    </div>
+                    <h1 class="hero-title" data-aos-delay="200">
+                    Crafting <span class="highlight">Secure & Creative</span> <br>
+                    <span class="typed-text"></span>
+                </h1>
+                <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+                    I’m <strong>Gautam</strong>, a <strong>Frontend Developer</strong>, <strong>SOC Analyst (Level 1)</strong>, and <strong>Graphic Designer</strong> from Hyderabad, Pakistan, and the founder of <strong>Glavion Solutions</strong>. I build responsive web interfaces with React, manage IT support, and protect digital assets with modern SIEM & SOC practices.
+                </p>
+                    <div class="hero-buttons">
+                        <a href="projects.html" class="btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+                        <a href="contact.html" class="btn-outline">Let's Connect <i class="fas fa-comment"></i></a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number"><span class="counter-value" data-target="15" data-suffix="+">0</span></div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number"><span class="counter-value" data-target="3" data-suffix="+">0</span></div>
+                            <div class="stat-label">Years Exp</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number"><span class="counter-value" data-target="100" data-suffix="%">0</span></div>
+                            <div class="stat-label">Satisfaction</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual" data-aos="fade-left">
+                    <div class="hero-visual-glow"></div>
+                    <div class="hero-visual-glow-2"></div>
+                    
+                    <div class="hero-image-container">
+                        <div class="hero-image-wrapper">
+                            <img src="assets/myimage.png" alt="Gautam" class="hero-img">
+                        </div>
+                        
+                        <!-- Floating Tech Badges -->
+                        <div class="floating-badge badge-react" aria-label="React.js">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="floating-badge badge-design" aria-label="Graphic Design" style="top: 55%; right: -25px; background: rgba(14,19,36,0.9); border: 1px solid rgba(0,242,254,0.3); color: #00f2fe; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; position: absolute; box-shadow: 0 10px 25px rgba(0,0,0,0.4);"><i class="fas fa-palette"></i></div>
+                        <div class="floating-badge badge-security" aria-label="Cybersecurity">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Wave Divider -->
+    <div class="wave-container">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(0, 245, 160, 0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0, 245, 160, 0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(0, 245, 160, 0.7)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="var(--dark-surface)" />
+            </g>
+        </svg>
+    </div>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">What I Do</span>
+                <h2 class="section-title">Services & <span class="highlight">Expertise</span></h2>
+                <p class="section-subtitle">Delivering high-quality solutions with modern technologies</p>
+            </div>
+                                    <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+                <!-- Pillar 1: Security & SOC -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-image-header">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=600" alt="Cybersecurity & SOC">
+                    </div>
+                    <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Security & SOC Operations</h3>
+                    <p>Level 1 SOC monitoring, SIEM event log analysis (Splunk, ELK), Wireshark packet inspection, and threat triage.</p>
+                    <div class="service-tech"><span>Splunk</span><span>ELK Stack</span><span>Wireshark</span><span>Nmap</span></div>
+                </div>
+
+                <!-- Pillar 2: Frontend Dev -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-image-header">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=600" alt="Frontend Web Development">
+                    </div>
+                    <div class="service-icon"><i class="fas fa-code"></i></div>
+                    <h3>Frontend Development</h3>
+                    <p>High-performance, responsive web interfaces built with React, modern JavaScript, component design, and REST APIs.</p>
+                    <div class="service-tech"><span>React</span><span>JavaScript</span><span>HTML5/CSS3</span><span>Node.js</span></div>
+                </div>
+
+                <!-- Pillar 3: Graphic Design -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-image-header">
+                        <img src="assets/graphics/graphic_page_06.jpg" alt="Graphic Design & Branding">
+                    </div>
+                    <div class="service-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Graphic Design & Branding</h3>
+                    <p>Impactful visual identity, travel campaigns (Go Route), promotional social banners, and corporate brochures.</p>
+                    <div class="service-tech"><span>Photoshop</span><span>Illustrator</span><span>Canva</span><span>Brochures</span></div>
+                </div>
+
+                <!-- Pillar 4: Networking & IT -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-image-header">
+                        <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=600" alt="Networking & IT Support">
+                    </div>
+                    <div class="service-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Networking & IT Support</h3>
+                    <p>CCNA networking, VLAN configurations, Packet Tracer, hardware diagnostics, lab administration, and system maintenance.</p>
+                    <div class="service-tech"><span>CCNA</span><span>VLAN / Routing</span><span>Packet Tracer</span><span>IT Labs</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+                <p class="section-subtitle">Some of my best work showcasing technical excellence</p>
+            </div>
+            <div class="projects-grid" id="featuredProjects"></div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="projects.html" class="btn-outline">View All Projects <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <div class="skills-grid">
+                <div class="skills-content" data-aos="fade-right">
+                    <span class="section-tag">Technical Proficiency</span>
+                    <h2>Tools & <span class="highlight">Technologies</span></h2>
+                    <p>I work with a modern tech stack to build robust applications</p>
+                </div>
+                <div class="skills-sphere-container" data-aos="fade-left" style="display: flex; justify-content: center; align-items: center; min-height: 350px;">
+                    <div id="skill-sphere" style="color: var(--primary); font-family: 'Space Grotesk', sans-serif; font-size: 1.2rem; font-weight: 600;">
+                        <!-- Fallback skill badges shown if CDN fails -->
+                                                <div id="skills-fallback" style="display:flex;flex-wrap:wrap;gap:0.75rem;justify-content:center;max-width:500px;">
+                            <span style="background:rgba(0,242,254,0.1);color:var(--primary);border:1px solid rgba(0,242,254,0.3);padding:0.5rem 1.2rem;border-radius:50px;font-size:0.9rem;font-weight:600;">React.js</span>
+                            <span style="background:rgba(0,242,254,0.1);color:var(--primary);border:1px solid rgba(0,242,254,0.3);padding:0.5rem 1.2rem;border-radius:50px;font-size:0.9rem;font-weight:600;">JavaScript</span>
+                            <span style="background:rgba(0,242,254,0.1);color:var(--primary);border:1px solid rgba(0,242,254,0.3);padding:0.5rem 1.2rem;border-radius:50px;font-size:0.9rem;font-weight:600;">Splunk (SIEM)</span>
+                            <span style="background:rgba(139,92,246,0.1);color:#8b5cf6;border:1px solid rgba(139,92,246,0.3);padding:0.5rem 1.2rem;border-radius:50px;font-size:0.9rem;font-weight:600;">ELK Stack</span>
+                            <span style="background:rgba(139,92,246,0.1);color:#8b5cf6;border:1px solid rgba(139,92,246,0.3);padding:0.5rem 1.2rem;border-radius:50px;font-size:0.9rem;font-weight:600;">Wireshark</span>
+                            <span style="background:rgba(0,242,254,0.1);color:var(--primary);border:1px solid rgba(0,242,254,0.3);padding:0.5rem 1.2rem;border-radius:50px;font-size:0.9rem;font-weight:600;">Adobe Photoshop</span>
+                            <span style="background:rgba(245,158,11,0.1);color:#f59e0b;border:1px solid rgba(245,158,11,0.3);padding:0.5rem 1.2rem;border-radius:50px;font-size:0.9rem;font-weight:600;">Adobe Illustrator</span>
+                            <span style="background:rgba(245,158,11,0.1);color:#f59e0b;border:1px solid rgba(245,158,11,0.3);padding:0.5rem 1.2rem;border-radius:50px;font-size:0.9rem;font-weight:600;">Canva</span>
+                            <span style="background:rgba(16,185,129,0.1);color:#10b981;border:1px solid rgba(16,185,129,0.3);padding:0.5rem 1.2rem;border-radius:50px;font-size:0.9rem;font-weight:600;">Python</span>
+                            <span style="background:rgba(16,185,129,0.1);color:#10b981;border:1px solid rgba(16,185,129,0.3);padding:0.5rem 1.2rem;border-radius:50px;font-size:0.9rem;font-weight:600;">Cisco Packet Tracer</span>
+                            <span style="background:rgba(0,242,254,0.1);color:var(--primary);border:1px solid rgba(0,242,254,0.3);padding:0.5rem 1.2rem;border-radius:50px;font-size:0.9rem;font-weight:600;">IT Support</span>
+                            <span style="background:rgba(0,242,254,0.1);color:var(--primary);border:1px solid rgba(0,242,254,0.3);padding:0.5rem 1.2rem;border-radius:50px;font-size:0.9rem;font-weight:600;">PHP / C++</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What <span class="highlight">Clients Say</span></h2>
+            </div>
+            <div class="testimonials-grid" id="testimonials"></div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Ready to Start a Project?</h2>
+                <p>Let's collaborate and bring your ideas to life with modern technology solutions.</p>
+                <a href="contact.html" class="btn-primary btn-large">Get In Touch <i class="fas fa-paper-plane"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/923110324919" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with me</span>
+    </a>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <span class="logo-text">Gau</span>
+                <span class="logo-highlight">tam</span>
+                    </div>
+                    <p>Frontend Developer, SOC Analyst & Graphic Designer — Founder of Glavion Solutions. Building secure digital experiences and creative visual media.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/goutamdeewan561-oss" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                            <span class="live-indicator pulse-dot"></span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/gautam-deewan-b76525382" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/923110324919" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Professional</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Me</a>
+                    <a href="projects.html">Portfolio</a>
+                    <a href="resume.html">Resume</a>
+                    <a href="cybersecurity.html">Security</a>
+                </div>
+
+                                <div class="footer-links">
+                    <h4>Core Expertise</h4>
+                    <a href="cybersecurity.html">Security & SOC</a>
+                    <a href="projects.html?filter=web">Frontend Dev</a>
+                    <a href="projects.html?filter=graphics">Graphic Design</a>
+                    <a href="about.html">Networking & IT</a>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Get the latest tech insights and project updates.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" id="newsletterEmail" placeholder="Email Address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2026 Gautam. Built with <i class="fas fa-heart pulse" style="color: #ef4444;"></i> in Pakistan</p>
+                </div>
+                <div class="footer-legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <!-- TagCloud for 3D Sphere -->
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Newsletter form → Formspree
+        const newsletterForm = document.getElementById('newsletterForm');
+        if (newsletterForm) {
+            newsletterForm.addEventListener('submit', async function(e) {
+                e.preventDefault();
+                const email = document.getElementById('newsletterEmail').value;
+                const btn = this.querySelector('button');
+                btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
+                try {
+                    const res = await fetch('https://formspree.io/f/xkoypoeq', {
+                        method: 'POST',
+                        headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ email, _subject: 'New Newsletter Subscriber' })
+                    });
+                    btn.innerHTML = res.ok ? '<i class="fas fa-check"></i>' : '<i class="fas fa-paper-plane"></i>';
+                    if (res.ok) { this.reset(); setTimeout(() => btn.innerHTML = '<i class="fas fa-paper-plane"></i>', 3000); }
+                } catch { btn.innerHTML = '<i class="fas fa-paper-plane"></i>'; }
+            });
+        }
+    </script>
+</body>
+
+</html>
